@@ -5,5 +5,5 @@ last = num1//100
 
 if first==last:
 	print("THIS IS A PALINDROME")
-if first!=last:
+else:
 	print("THIS IS NOT A PALINDROME")
