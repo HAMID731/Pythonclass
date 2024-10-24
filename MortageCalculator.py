@@ -1,4 +1,4 @@
-print(f"WELCME TO FINTECH COMPANY")
+print(f"WELCOME TO FINTECH COMPANY")
 print(f"where your satisfaction is what we relay on")
 
 loan_amount=int(input("ENTER YOUR DESIRED AMOUNT OF LOAN(#): "))
