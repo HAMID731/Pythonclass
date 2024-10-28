@@ -1,0 +1,7 @@
+print(" PATTERN A     PATTERN B    PATTERN C     PATTERN D")
+print(" *             * * * * * *            *   * * * * * *")
+print(" * *           * * * * *            * *     * * * * *")
+print(" * * *         * * * *            * * *       * * * *")
+print(" * * * *       * * *            * * * *         * * *")
+print(" * * * * *     * *            * * * * *           * *")
+print(" * * * * * *   *            * * * * * *             *")
