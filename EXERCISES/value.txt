@@ -1,0 +1,1 @@
+After executing the statement x += x++ - 5;, the final value of x will be 6.
