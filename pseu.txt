@@ -1,0 +1,13 @@
+*create a variable 
+*save as count
+*initialize it to zero
+*prompt user to enter words
+*collect 
+*save as hamid
+*define a function
+*save as get_number_of_vowels
+*pass a paramitar of 'vowel'
+*for word in (the input of the user)'hamid'
+*if word = 'a' or 'e' or 'i' or 'o' or 'u'
+*increment variable by 1
+*

@@ -1,0 +1,1 @@
+Outliers affect the mean most because they shift the average value. The median and mode are least affected, as they reflect central and frequent values, respectively, rather than averages.
