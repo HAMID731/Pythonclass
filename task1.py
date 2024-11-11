@@ -1,4 +1,4 @@
-#write a function that takes a string and returns the number of vowel in the string
+#write a function that takes a string and returns thx   													e number of vowel in the string
 
 
 
