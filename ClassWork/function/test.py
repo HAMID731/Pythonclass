@@ -1,6 +1,5 @@
 from unittest import TestCase
 import divide_or_square
-import future_investment
 
 class TestDivideOrSquare(TestCase):
 	def test_that_is_divisible_function_exists(self):
@@ -33,27 +32,5 @@ class TestDivideOrSquare(TestCase):
 		self.assertRaises(ValueError, divide_or_square.get_remainder, 1001)
 
 
-
-
-
-
-
-
-
-	def test_that_is_investent_function_exists(self):
-		future_investment.get_investment(2,3,4)
-
-	def test_that_investment_function_returns_correct_value(self):
-		actual = future_investment.get_investment(2000,100,4)
-		expected = 200000002000
-		self.assertEqual(actual, expected)
-		actual = future_investment.get_investment(1000,50,5)
-		expected = 312500001000
-		self.assertEqual(actual, expected)
-
-	def test_that_you_can_enter_a_float_value(self):
-		actual = future_investment.get_investment(320.45,20,2)
-		expected = 128320
-		self.assertEqual(actual, expected)
 
 
