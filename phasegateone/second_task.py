@@ -10,6 +10,8 @@ using a list comprehention return the sum of number after number iterate through
 assign the function [ get_sum_of_each_digit] to sum with random_number parameter
 
 display sum
+"""
+
 
 import random
 
