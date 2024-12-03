@@ -49,7 +49,7 @@ while number <= 9:
 			total = sum
 			print(" incorrect! ")
 		number += 1
-			print (total)
+		print (total)
 	
 
 
