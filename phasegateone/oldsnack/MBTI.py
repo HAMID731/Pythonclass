@@ -1,4 +1,3 @@
-
 scanner = input
 personality_type = ""
 print("What is your name? ", end="")
