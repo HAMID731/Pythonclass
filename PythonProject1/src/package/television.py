@@ -4,6 +4,7 @@ class TelevisionError(Exception):
 
 class Television:
     def __init__(self):
+        self.previous_volume = 0
         self.is_on = True
         self.volume_level = 0
         self.channel_level = 0
@@ -15,14 +16,16 @@ class Television:
         self.is_on = False
 
     def volume_up(self):
-        if self.is_on and 0 < self.volume_level <= 100:
-            self.volume_level += 1
+        if self.is_on:
+            if self.volume_level < 100:
+                self.volume_level += 1
         else:
             raise TelevisionError("TV must be turned on")
 
     def volume_down(self):
         if self.is_on:
-            self.volume_level -= 1
+            if self.volume_level > 0:
+                self.volume_level -= 1
         else:
             raise TelevisionError("TV must be turned on")
 
@@ -44,10 +47,13 @@ class Television:
         else:
             raise TelevisionError("Expected channel_level to be between 0 and 100 and TV must be turned on")
 
-    def mute_and_unmute_volume(self,level):
-        if self.is_on and self.volume_level == 0:
-            
-
-        elif self.is_on and self.volume_level :
-
+    def mute_and_unmute_volume(self):
+        if self.is_on:
+            if self.volume_level != 0:
+                self.previous_volume = self.volume_level
+                self.volume_level = 0
+            else:  # Muted, so unmute
+                self.volume_level = self.previous_volume
+        else:
+            raise TelevisionError("TV must be turned on")
 
