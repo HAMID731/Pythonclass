@@ -1,0 +1,52 @@
+I understand you'd like me to create a UML diagram and add methods based on the provided text. However, I'm unable to create images of UML diagrams directly.
+
+But, I can definitely help you by outlining the classes and their methods in a textual format, which you can then use to create the diagram yourself using a UML tool.
+
+Here's a breakdown of the classes and their methods based on the text:
+
+User
+
+Attributes: age, email, home address, name, password, phone
+Methods: getUserAge(), getUserEmail(), getUserHomeAddress(), getUserName(), getUserPassword(), getUserPhone(), setUserAge(age), setUserEmail(email), setUserHomeAddress(homeAddress), setUserName(name), setUserPassword(password), setUserPhone(phone)
+Customer
+
+Attributes: billing information (list), shopping cart
+Methods: getBillingInformation(), getShoppingCart(), addBillingInformation(billingInfo), removeBillingInformation(billingInfo), setShoppingCart(cart)
+Seller
+
+Attributes: products (list)
+Methods: getProducts(), addProduct(product), removeProduct(product)
+Admin
+
+Attributes: users (list)
+Methods: getUsers(), addUser(user), removeUser(user)
+Address
+
+Attributes: city, country, house number, street, state
+Methods: getCity(), getCountry(), getHouseNumber(), getStreet(), getState(), setCity(city), setCountry(country), setHouseNumber(number), setStreet(street), setState(state)
+BillingInformation
+
+Attributes: receiver phone, receiver name, delivery address, credit card information
+Methods: getReceiverPhone(), getReceiverName(), getDeliveryAddress(), getCreditCardInfo(), setReceiverPhone(phone), setReceiverName(name), setDeliveryAddress(address), setCreditCardInfo(info)
+CreditCardInformation
+
+Attributes: card CVV, card expiration year, card expiration month, card number, name on card, card type
+Methods: getCardCvv(), getCardExpYear(), getCardExpMonth(), getCardNumber(), getNameOnCard(), getCardType(), setCardCvv(cvv), setCardExpYear(year), setCardExpMonth(month), setCardNumber(number), setNameOnCard(name), setCardType(type)
+ShoppingCart
+
+Attributes: items (list)
+Methods: getItems(), addItem(item), removeItem(item), setItems(items)
+Item
+
+Attributes: quantity, product
+Methods: getQuantity(), getProduct(), setQuantity(quantity), setProduct(product)
+Product
+
+Attributes: product ID, product name, price, description, category
+Methods: getProductId(), getProductName(), getPrice(), getDescription(), getCategory(), setProductId(id), setProductName(name), setPrice(price), setDescription(desc), setCategory(cat)
+ProductCategory (enum)
+
+Values: ELECTRONICS, GROCERIES, UTENSILS, CLOTHING
+CardType (enum)
+
+Values: MASTER CARD, VISA CARD, VERVE, AMERICA EXPRESS
