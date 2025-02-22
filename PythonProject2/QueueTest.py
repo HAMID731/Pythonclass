@@ -47,7 +47,7 @@ class TestPersonalQueue(unittest.TestCase):
     def test_display(self):
         self.queue.enqueue('a')
         self.queue.enqueue('b')
-        self.queue.display()  # This will print the queue, but we don't have to assert anything
+        self.queue.display()  
 
 if __name__ == '__main__':
     unittest.main()
