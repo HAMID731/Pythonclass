@@ -47,7 +47,7 @@ class TestPersonalQueue(unittest.TestCase):
     def test_display(self):
         self.queue.enqueue('a')
         self.queue.enqueue('b')
-        self.queue.display()  
+        self.queue.display()
 
 if __name__ == '__main__':
     unittest.main()
